@@ -1,0 +1,285 @@
+<span style="font-family: verdana, geneva, sans-serif;">body {
+    background-color: #344a72;
+    font-family: "Roboto", sans-serif;
+  }
+  .signup-box {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    background-color: white;
+    border: none;
+    padding-bottom: 150px;
+  }
+     nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 10px;
+        padding-left: 3%;
+        padding-right: 3%;
+        background-color:#fff;
+        height: 50px;
+
+    }
+    .logo {
+        color: black;
+        font-size: 28px;
+    }
+    span {
+        color: #ea1538;
+    }
+    nav ul li {
+        display:inline-block;
+        padding: 10px 20px ;
+        
+    }
+    nav ul li a {
+        text-decoration: none;
+        color:black;
+        font family: Oswald, sans-serif;
+        font-weight: bold;
+        transition:0.4s ease-in-out ;
+    }
+    nav ul li a:hover {
+        color: #ea1538;
+        transition: .5s;
+        
+    }
+    .cb1 {    
+        border: none ;
+        background: #ea1538;
+        padding: 12px 30px;
+        border-radius: 30px;
+        color: white;
+        font-weight: bold;
+        font-size: 13px;
+        transition: .4s;
+    
+        
+    }
+    .cb1:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    .sub-menu {
+        display:none;
+        background-color:#ea1538;  
+        border: 1px;
+        border-radius: 8px;
+    }
+     ul li:hover .sub-menu{ 
+        display:block;
+        position: absolute;
+        margin-top: 7x;
+        margin-left:5px ;
+        text-decoration: none;
+        color: white;    
+    }
+    ul li:hover .sub-menu ul a {
+        display: flex;
+        margin:auto;
+        flex-direction: row;
+    }
+  .login-box {
+    width: 400px;
+    height: 510px;
+    margin: auto;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  .form22 {
+    position: absolute;
+    top:210px;
+   }
+   .h1login {
+    padding-top:45px;
+   }
+   .inputa {
+    position: absolute;
+    right: -32px;
+    bottom: -100px;
+   }
+  h1 {
+    text-align: center;
+    padding-top: 15px;
+    color: #ea1538;
+  }
+  
+  h4 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+  }
+  
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  form input {
+    width: 330px;
+    height: 25px;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border:wheat solid 1px;
+    background-color:black;
+    color: white;
+    font-size: 18px;
+    
+  }
+  p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .para-2 {
+    text-align: center;
+    color:black;
+    font-size: 15px;
+    margin-top: 50px;
+
+  }
+  .para-3 {
+    text-align: center;
+    color:white;
+    font-size: 15px;
+    margin-top: 50px;
+
+  }
+  .para-3 a {
+    color: #ea1538;
+    bottom: -200px;
+  }
+  .para-2 a {
+    color: #ea1538;
+    bottom: -200px;
+  }
+  .logIN {
+    color: #ea1538;
+  }
+  .signup-box {
+    position: relative;
+    right: 0;
+    margin-top:80px;
+
+  }
+.whole {
+   
+  position: absolute;
+  right:0;
+  width: 50%;
+  height:;
+   }
+  .image {
+    width:50%;
+    height: auto;
+  }
+  h3 {
+    font-size: 42px;
+    padding-left:20px;
+    padding-top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+   
+  }
+  span {
+        color: #ea1538; 
+      }
+   .myclassh1 {
+    position:absolute;
+    font-size: 50px;
+    padding-left:80px;
+    padding-top:0px;
+    font-weight: ;
+    letter-spacing: 2px;
+
+   }
+   .myp {
+    position: absolute;
+    bottom: 280px;
+    color: white;
+    padding-left: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+   }
+    .element1 {
+      width: 250px;
+      height:auto;
+      position: absolute;
+      bottom:75px;
+      background-color:white;
+      opacity: 0.4;
+      left:60px;
+      border-radius: 10px;
+    }
+    .element2 {
+      width: 210px;
+      height:auto;
+      position: absolute;
+      bottom:75px;
+      background-color:white;
+      opacity: 0.4;     
+       left:450px;
+       border-radius: 10px;
+
+    }
+    .element3 {
+      width: 210px;
+      height:auto;
+      position: absolute;
+      bottom:-210px;
+      background-color:white;
+      opacity: 0.4;      
+      left:450px;
+      border-radius: 10px;
+
+    }
+    .element4 {
+      width: 210px;
+      height:auto;
+      position: absolute;
+      bottom:-200px;
+      background-color:white;
+      opacity: 0.4;      
+      left:60px;
+      border-radius: 10px;
+     }
+     .spon {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      background-color: yellow;
+     }
+     .element1 p {
+      font-weight: bold;
+      text-decoration:underline;
+     }
+     .element2 p {
+      font-weight: bold;
+      text-decoration: underline;
+
+     }
+     .element3 p {
+      font-weight: bold;
+      text-decoration: underline;
+
+     }
+     .element4 p {
+      font-weight: bold;
+      text-decoration: underline;
+
+     }

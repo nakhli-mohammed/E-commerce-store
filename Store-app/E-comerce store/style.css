@@ -1,0 +1,217 @@
+.{
+    font-family : 'josefin sans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ .main {
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("alexander-redl-qo1pyCD02t4-unsplash.jpg");
+    background-size:cover;
+    background-position: center;
+ }
+ nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.logo {
+    color: white;
+    font-size: 28px;
+}
+span {
+    color: #ea1538;
+}
+nav ul li {
+    display:inline-block;
+    padding: 10px 20px ;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font family: Oswald, sans-serif;
+    font-weight: bold;
+    transition:0.4s ease-in-out ;
+}
+nav ul li a:hover {
+    color: #ea1538;
+    transition: .5s;
+    
+}
+.cb1 {    
+    border: none ;
+    background: #ea1538;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    transition: .4s;
+
+    
+}
+.cb1:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.sub-menu {
+    display:none;
+    background-color:#ea1538;  
+    border: 1px;
+    border-radius: 8px;
+}
+ ul li:hover .sub-menu{ 
+    display:block;
+    position: absolute;
+    margin-top: 7x;
+    margin-left:5px ;
+    text-decoration: none;
+    color: white;    
+}
+ul li:hover .sub-menu ul a {
+    display: flex;
+    margin:auto;
+    flex-direction: row;
+}
+
+
+
+section {
+    position:absolute;
+    top: 250px;
+}
+.content {
+
+ }
+.title {
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size:50px;
+    font-style:;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1px;
+    letter-spacing: 2px;
+}
+.pra {
+    font: size 20px;
+    color:white;
+    padding: 50px 50px;
+    padding-top:0px;
+    margin-block-end: 100px;
+    font-family: Arial,;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.prinp {
+font-style: italic;
+}
+.indent {
+    text-indent: 50px;
+}
+
+.cn {
+    border: none;
+    background: #ea1538;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 13px;
+    transition: .4s;
+    margin-left: 380px;
+    list-style:none ;
+    text-decoration: none;
+}
+.cn  {
+    list-style:none ;
+    text-decoration: none;
+    color: white;
+
+}
+.cb  {
+    list-style:none ;
+    text-decoration: none;
+    color: white;
+
+}
+.cn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.cb {    
+    border: none;
+    background: #ea1538;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    transition: .4s;
+    margin-right: 400px;
+}
+.cb:hover 
+{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+    
+
+.couple {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    justify-content: space-evenly;
+}
+.new {
+    background-color: white;
+    height: 100vh;
+    width: auto;
+}
+.newreales {
+   background-color: rgb(17, 43, 43);
+   width: auto;
+   height: 60vh;
+   margin-top: 30px;
+   
+}
+.title2 {
+    color: white;
+    margin-left: 100px;
+    padding-top:  300px;
+    
+}
+footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+     
+}
+.down {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 95px;
+    color: #fff;
+
+ }
+ .foooter {
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 0px;
+    font-size: 10px;
+    font-weight: ;
+    font-style: normal;
+ }
+ .h33 {
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ea1538;
+    letter-spacing: 1px;
+    line-height: 2px;
+
+ }
